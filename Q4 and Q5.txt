@@ -1,0 +1,10 @@
+Q4.Write a short note on Tag and element with an example.
+Ans:-
+Tag: A tag is a keyword enclosed in angle brackets ("<" and ">") that defines an HTML element. Tags are used to mark the beginning and end of an element, providing instructions on how the browser should render and display content.
+Element: An element is a complete set of tags that encloses content and provides structure to the document. It consists of an opening tag, content, and a closing tag. Elements can be nested, meaning one element can be contained within another.
+Example:-
+<p>This is a sample paragraph.</p>
+
+Q5. What is the DOCTYPE Declaration in HTML?
+Ans:-
+The Document Type Declaration, often abbreviated as DOCTYPE, is an essential part of an HTML document. It is a declaration that specifies the version of HTML or XHTML that the document follows. The DOCTYPE declaration is placed at the very beginning of an HTML document, typically before the <html> tag.
