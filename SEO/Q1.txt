@@ -1,0 +1,24 @@
+Q1. What is SEO and explain the importance of SEO?
+SEO, or Search Engine Optimization, is the practice of optimizing a website or online content to improve its visibility and ranking on search engine results pages (SERPs). The primary goal of SEO is to attract organic (non-paid) traffic to a website by enhancing its relevance and credibility in the search engines.
+The ultimate goal of SEO is to rank higher in search engine results pages for relevant keywords and phrases, which can increase visibility, traffic, and ultimately revenue for the website
+The importance of SEO -
+Meta tags are important for SEO because they provide information to search engines about the content on your site and can help improve your website's visibility and ranking in search engine results pages.
+Q3. What are the Benefits of Using Meta Tags?
+Meta tags are HTML tags that provide information about a web page to search engines and website visitors. While some meta tags have become less significant over the years, certain ones remain essential for SEO and improving the user experience
+The <meta> tag is used to provide such additional information. This tag is an empty element and so does not have a closing tag but it carries information within its attributes.
+Q5. Define Favicon and give an illustrative example.
+A favicon, short for "favorite icon," is a small icon associated with a website or webpage. It is typically displayed in the browser's address bar, next to the page's title, and in browser tabs. Favicons provide a visual representation of a website, making it easier for users to identify and differentiate between multiple open tabs. The standard format for favicons is the (Icon) file format, although other image formats like PNG and GIF are also commonly used.
+Example :-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
