@@ -1,0 +1,28 @@
+Q1.List out the features of HTML5
+ANS:- 
+Canvas:   The <canvas> element enables dynamic, scriptable rendering of 2D shapes and bitmap images. It allows for the creation of interactive graphics, animations, games, and data visualization directly within the browser.
+SVG Support:  HTML5 includes native support for Scalable Vector Graphics (SVG), allowing vector graphics to be embedded directly into web pages. SVG provides resolution-independent graphics that can be scaled without losing quality.
+WEB Workers: HTML5 introduces Web Workers, which are background scripts that run separately from the main browser thread. They enable concurrent processing, improving performance by handling tasks such as calculations, data processing, and other intensive operations without blocking the user interface.
+WEB Socket: includes support for Web Sockets, providing full-duplex communication channels over a single, long-lived connection between the client and the server. This enables real-time, bidirectional communication between web servers and clients, facilitating interactive web applications like chat apps and online gaming.
+Accessibility: introduces several features and attributes to improve web accessibility, such as <figure>, <figcaption>, <progress>, <meter>, ARIA roles and attributes, and more. These enhancements help developers create more accessible and inclusive web content for users with disabilities.
+Q2. What are HTML Entities? List out 5 commonly used HTML entities	
+ANS:-
+HTML entities are special codes used to represent characters that have special meanings in HTML or characters that cannot be easily typed on a keyboard. They are especially useful when you need to display characters like <, >, &, or characters with diacritical marks, mathematical symbols, or special characters
+5 commonly used HTML entities 
+&it; :- Represents the less-than symbol (<). This entity is used to display the less-than sign without it being interpreted as the opening tag of an HTML element.
+&gt; :- Represents the greater-than symbol (>). Similar to the previous entity, it is used to display the greater-than sign without it being interpreted as the closing tag of an HTML element.
+&amp;  :- Represents the ampersand (&). It is used to display the ampersand symbol without it being interpreted as the start of an HTML entity or character reference.
+&quot; :- Represents the double quotation mark ("). This entity is often used to display double quotation marks within attribute values of HTML elements.
+&nbsp;  :- Represents a non-breaking space. It is used to add space between words or elements that should not be broken across lines. It prevents browsers from collapsing consecutive spaces into a single space.
+Q3. Define accessibility in the context of web development? Discuss why it's essential to create accessible websites and how it benefits different user groups
+ANS:-
+Def:-   Accessibility in the context of web development refers to the practice of ensuring that websites, web applications, and web content are usable and perceivable by everyone, including people with disabilities. This includes individuals with visual, auditory, motor, cognitive, and neurological disabilities. The goal of web accessibility is to remove barriers to access and provide an inclusive online experience for all users, regardless of their abilities or disabilities.
+Benefits:-
+ Inclusivity:- Accessible websites ensure that everyone, regardless of their abilities or disabilities, can access and use the information and functionality provided. By removing barriers to access, accessibility promotes inclusivity and ensures that no one is left behind in the digital age.
+Legal Compliance :-In many countries, there are legal requirements and regulations mandating web accessibility, such as the Americans with Disabilities Act (ADA) in the United States and the Web Content Accessibility Guidelines (WCAG) established by the World Wide Web Consortium
+Business Benefits:- Accessible websites can also provide various business benefits, such as expanding the potential audience, improving brand reputation and customer loyalty, increasing sales and conversions, and reducing support costs.
+Q4. List any 3 ways which help us in improving the accessibility of HTML
+ANS:-
+Use Semantic HTML Elements:-     Semantic HTML elements provide meaning and structure to web content, making it easier for users, including those using assistive technologies, to understand and navigate. By using semantic elements such as <header>, <nav>, <main>, <article>, <section>, <footer>, and <aside>, developers can create well-structured documents that convey the intended hierarchy and relationships between different sections of content.
+Provide Alt Text for Images:- Adding descriptive alternative text (alt text) to images using the alt attribute ensures that users who cannot see the images, either due to visual impairments or technical limitations, can understand their content and purpose. Alt text should be concise, descriptive, and convey the essential information or function of the image.
+Use Color with Care:- Color plays an important role in web design, but it should not be the only means of conveying information. Ensure that color is not the sole indicator of meaning. For example, when using error messages, pair color with text that explains the error. Additionally, maintain sufficient color contrast between text and background to enhance readability for users with low vision
