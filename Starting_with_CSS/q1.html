@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styles</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 10px;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- Inline CSS -->
+    <div style="border: 2px solid red; padding: 20px; background-color: orange;">
+        <p>This is a box with inline CSS</p>
+    </div>
+
+    <!-- Internal CSS -->
+    <div class="box">
+        <p>This is a box with internal CSS</p>
+    </div>
+
+    <!-- External CSS -->
+    <div class="box" id="externalBox">
+        <p>This is a box with external CSS</p>
+    </div>
+</body>
+</html>
