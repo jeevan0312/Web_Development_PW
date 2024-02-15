@@ -1,0 +1,11 @@
+.card {
+        padding: 20px;
+        background-color: beige;
+        border-radius: 10px;
+      }
+  
+.card-image {
+        float: right ;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
