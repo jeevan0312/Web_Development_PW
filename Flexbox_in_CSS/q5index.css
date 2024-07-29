@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.full-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    margin-right: 10px;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navigation-container ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-container ul li {
+    margin-right: 20px;
+}
+
+.navigation-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navigation-container button.selected {
+    background-color: #0056b3;
+}
+
+.main-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sub-main-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.green-text {
+    color: green;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.choose-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.choose-container button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.choose-container button.selected {
+    background-color: #0056b3;
+}
+
+.choose-container button img {
+    margin-right: 10px;
+}
+
+.journey-details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.journey-details-section-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-element {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.card-element-image-container img {
+    margin-right: 10px;
+}
+
+.select-option {
+    display: flex;
+    align-items: center;
+}
+
+.select-option span {
+    margin-right: 10px;
+}
+
+.choose-location {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-location h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.choose-location span {
+    font-size: 14px;
+    color: #666;
+}
+
+.center-from-to-arrow img {
+    margin: 0 10px;
+}
+
+.search-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-button {
+    padding: 20px 40px; /* Increased size */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+}
+
+.select-options-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.select-options {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imgdiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+}
+
+.imgdiv img {
+    width: 100%;
+    max-width: 50vw;
+    margin-bottom: 0; /* Removed gap between images */
+}
