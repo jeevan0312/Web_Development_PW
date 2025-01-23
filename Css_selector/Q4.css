@@ -1,0 +1,19 @@
+/* Initial button styles */
+button {
+    background-color: #007BFF; /* Initial background color */
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover styles for the button */
+button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 12px 22px; 
+    cursor: pointer; 
+}

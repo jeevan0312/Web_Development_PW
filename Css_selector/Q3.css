@@ -1,0 +1,9 @@
+/* Add random words before the given HTML tag */
+h1::before {
+    content: "Selector ";
+}
+
+/* Add random words after the given HTML tag */
+h1::after {
+    content: " Pseudo";
+}
