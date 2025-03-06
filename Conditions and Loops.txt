@@ -1,0 +1,219 @@
+Q1)What are conditional statements? Explain conditional statements with syntax and examples.
+Conditional statements are a fundamental part of programming languages, allowing your code to make decisions and execute different actions based on certain conditions. They enable you to control the flow of your program by executing specific blocks of code only when certain conditions are met.
+
+1. If Statements
+Syntax:
+
+javascript
+if (condition) {
+  // code to execute if the condition is true
+}
+Example:
+
+javascript
+let age = 18;
+if (age >= 18) {
+  console.log("You are an adult.");
+}
+2. If-Else Statements
+Syntax:
+
+javascript
+if (condition) {
+  // code to execute if the condition is true
+} else {
+  // code to execute if the condition is false
+}
+Example:
+
+javascript
+let age = 16;
+if (age >= 18) {
+  console.log("You are an adult.");
+} else {
+  console.log("You are a minor.");
+}
+3. Else If Statements
+Syntax:
+
+javascript
+if (condition1) {
+  // code to execute if condition1 is true
+} else if (condition2) {
+  // code to execute if condition2 is true
+} else {
+  // code to execute if both condition1 and condition2 are false
+}
+Example:
+
+javascript
+let age = 20;
+if (age < 13) {
+  console.log("You are a child.");
+} else if (age < 18) {
+  console.log("You are a teenager.");
+} else {
+  console.log("You are an adult.");
+}
+4. Nested If Statements
+Syntax:
+
+javascript
+if (condition1) {
+  // code to execute if condition1 is true
+  if (condition2) {
+    // code to execute if both condition1 and condition2 are true
+  }
+}
+Example:
+
+javascript
+let age = 20;
+let gender = 'female';
+
+if (age >= 18) {
+  if (gender === 'female') {
+    console.log("You are an adult female.");
+  } else {
+    console.log("You are an adult male.");
+  }
+}
+
+Q2. Write a program that grades students based on their marks^
+. If greater than 90 then A GradE
+. If between 70 and 90 then a B gradE
+. If between 50 and 70 then a C gradE
+. Below 50 then an F grade
+
+function getGrade(marks) {
+  if (marks > 90) {
+    return "A Grade";
+  } else if (marks > 70 && marks <= 90) {
+    return "B Grade";
+  } else if (marks > 50 && marks <= 70) {
+    return "C Grade";
+  } else {
+    return "F Grade";
+  }
+}
+
+// Example usage
+let studentMarks = 85;
+console.log("Student's grade:", getGrade(studentMarks));
+ // Output: Student's grade: B Grade
+
+Q3. What are loops, and what do we need them? Explain different types of loops with their syntax and
+examples.
+ Loops are fundamental constructs in programming that allow you to repeat a block of code multiple times. They help in automating repetitive tasks, making your code more efficient and easier to manage. Here are the main types of loops in JavaScript, along with their syntax and examples:
+
+1. For Loop
+The for loop is used when you know in advance how many times you want to execute a statement or a block of statements.
+
+Syntax:
+
+javascript
+for (initialization; condition; increment/decrement) {
+  // code to be executed
+}
+Example:
+
+javascript
+for (let i = 0; i < 5; i++) {
+  console.log("Iteration number " + i);
+}
+2. While Loop
+The while loop is used to execute a block of code as long as the specified condition is true.
+
+Syntax:
+
+javascript
+while (condition) {
+  // code to be executed
+}
+Example:
+
+javascript
+let i = 0;
+while (i < 5) {
+  console.log("Iteration number " + i);
+  i++;
+}
+3. Do-While Loop
+The do-while loop is similar to the while loop, but it will execute the block of code at least once, regardless of whether the condition is true.
+
+Syntax:
+
+javascript
+do {
+  // code to be executed
+} while (condition);
+Example:
+
+javascript
+let i = 0;
+do {
+  console.log("Iteration number " + i);
+  i++;
+} while (i < 5);
+4. For-In Loop
+The for-in loop is used to iterate over the properties of an object.
+
+Syntax:
+
+javascript
+for (variable in object) {
+  // code to be executed
+}
+Example:
+
+javascript
+let person = { name: "John", age: 30, city: "New York" };
+for (let key in person) {
+  console.log(key + ": " + person[key]);
+}
+5. For-Of Loop
+The for-of loop is used to iterate over iterable objects, such as arrays, strings, maps, and sets.
+
+Syntax:
+
+
+for (variable of iterable) {
+  // code to be executed
+}
+Example
+let colors = ["red", "green", "blue"];
+for (let color of colors) {
+  console.log(color);
+}
+
+
+Q4. Generate numbers between any 2 given numbers.
+Ex
+. const num1 = 10
+. const num2 = 25;
+Output: 11, 12, 13, ...., 25
+
+const num1 = 10;
+const num2 = 25;
+
+for (let i = num1 + 1; i <= num2; i++) {
+  console.log(i);
+}
+
+Q5. Use the while loop to print numbers from 1 to 25 in ascending and descending order.
+Ascending Order
+let i = 1;
+while (i <= 25) {
+  console.log(i);
+  i++;
+}
+
+Descending Order
+let j = 25;
+while (j >= 1) {
+  console.log(j);
+  j--;
+}
+
+
+
